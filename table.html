@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1.1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <table style="border: 2px solid black">
+        <!-- <tr>
+            <th>
+
+            </th>
+            <td>
+
+            </td>
+        </tr> -->
+        <thead>
+            <tr>
+                <th>nº</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th colspan="3" align="center">Sobre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Matheus</td>
+                <td>29</td>
+                <td>Profissão: Dev</td>
+                <td>Escolaridade: Superior</td>
+                <td>Hobbies: Comer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" align="center">
+                    <small>
+                        Minha Tabela
+                    </small>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
